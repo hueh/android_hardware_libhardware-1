@@ -125,7 +125,8 @@ static audio_io_handle_t ap_get_input(struct audio_policy *pol, audio_source_t i
                                       uint32_t sampling_rate,
                                       audio_format_t format,
                                       uint32_t channels,
-                                      audio_in_acoustics_t acoustics)
+                                      audio_in_acoustics_t acoustics,
+				      audio_input_clients* pInputClientId)
 {
     return 0;
 }
